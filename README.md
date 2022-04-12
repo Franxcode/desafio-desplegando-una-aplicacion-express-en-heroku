@@ -16,53 +16,53 @@
 Comencemos:
 
 a.1. Primero crea una aplicación en Heroku.
-![Crear App Heroku 0](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear App Heroku 0](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_App_Heroku_0.PNG?raw=true)
 
 a.2. Luego elige un nombre que este disponible para la aplicación y selecciona la región más cerca de dónde estés.
-![Crear App Heroku 1](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear App Heroku 1](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_App_Heroku_1.PNG?raw=true)
 
 <hr/>
 
 b.1. Vamos a data y seleccionamos ```Heroku Postgre```.
-![Crear Base De Datos PostgreSQL 0](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 0](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_0.PNG?raw=true)
 
 b.2. Instalamos Heroku Postgres.
-![Instalamos Heroku PostgreSQL 1](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Instalamos Heroku PostgreSQL 1](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Instalamos_Heroku_PostgreSQL_1.PNG?raw=true)
 
 b.3. Luego seleccionamos un plan y enlazamos la base de datos a nuestra aplicación recientemente creada.
-![Crear Base De Datos PostgreSQL 2](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 2](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_2.PNG?raw=true)
 
 b.4. Luego vamos a Settings y hacemos click en ```View Credentials```.
-![Crear Base De Datos PostgreSQL 3](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 3](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_3.PNG?raw=true)
 
 b.5. Mantén esta ventana abierta, ya que utilizaremos está información a continuación.
-![Crear Base De Datos PostgreSQL 4](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 4](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_4.PNG?raw=true)
 
 b.6. Abre DBeaver y elije base de datos PostgreSQL.
-![Crear Base De Datos PostgreSQL 5](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 5](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_5.PNG?raw=true)
 
 b.7. Te preguntará si quieres descargar los driver files, selecciona ```Download```.
-![Crear Base De Datos PostgreSQL 6](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 6](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_6.PNG?raw=true)
 
 b.8. Escribe la información que obtuviste en las credenciales de Heroku para: ```Host, Database, Username, Password``` y luego has un ```Test connection```.
-![Crear Base De Datos PostgreSQL 7 ](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 7 ](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_7.PNG?raw=true)
 
 b.9. El ```Test connection``` será aprobado.
-![Crear Base De Datos PostgreSQL 8](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 8](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_8.PNG?raw=true)
 
 b.10. Finalmente, selecciona la base de datos en DBeaver, has clic en SQL Editor y selecciona Open SQL Script.
-![Crear Base De Datos PostgreSQL 9](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 9](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_9.PNG?raw=true)
 
 b.9. Escribe el SQL para crear la tabla y ejecutalo.
-![Crear Base De Datos PostgreSQL 10](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Crear Base De Datos PostgreSQL 10](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Crear_Base_De_Datos_PostgreSQL_Heroku_10.PNG?raw=true)
 
 <hr/>
 
 c.1. Cambia el string de la instancia de Client, agregandole un objeto con 2 propiedades como muestra la siguiente imagen:
-![Agregar String Conexión Base De Datos Heroku](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Agregar String Conexión Base De Datos Heroku](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Agregar_String_Conexion_Base_De_Datos_Heroku.PNG?raw=true)
 
 c.2. Deja el puerto de manera dinámica como se muestra en la siguiente imagen:
-![Dejamos El Puerto De Manera Dinámica](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Dejamos El Puerto De Manera Dinámica](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Dejamos_El_Puerto_De_Manera_Dinamica.PNG?raw=true)
  
 c.3 Por último, usa los comandos de Heroku CLI para poder desplegar la aplicación en Heroku.
-![Deploy Heroku Commands](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-docker/blob/master/public/assets/img/Docker_Build_Command.PNG?raw=true)
+![Deploy Heroku Commands](https://github.com/Franxcode/desafio-desplegando-una-aplicacion-express-en-heroku/blob/master/public/assets/img/Deploy_Heroku_Commands.PNG?raw=true)
