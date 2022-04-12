@@ -20,7 +20,7 @@ const insertUser = (event) => {
             const { response:data } = response.data;
             Swal.fire({
                 title: 'Éxito!',
-                text: `Has creado un nuevo todo -
+                text: `Has creado un nuevo usuario -
                 username: ${data.username} |
                 email: ${data.email} |
                 fecha: ${formatDate(data.fecha)}`,
